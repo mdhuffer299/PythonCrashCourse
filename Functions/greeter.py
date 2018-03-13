@@ -11,4 +11,4 @@ def greet_user(name):
 
 name = input("What is you name? ")
 
-greet_user(name)
+greet_user(name.title())
